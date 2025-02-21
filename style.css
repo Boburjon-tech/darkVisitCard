@@ -7,15 +7,22 @@
 }
 
 body {
-    background-color:#1f1f1f;
+    background-color:#141414;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
 
 .MainDivWrap {
+    background-color:#1f1f1f;
+    width:384px;
+    height: 611px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    border-radius: 12px;
     text-align: center;
 }
 
@@ -54,6 +61,12 @@ body {
     padding: 12px 127.5px;
     border-radius:8px;
 
+}
+.item:hover {
+    background-color:greenyellow;
+    .link {
+        color:#000;
+    }
 }
 
 .link {
